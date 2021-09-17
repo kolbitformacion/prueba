@@ -11,5 +11,10 @@ public class GitTest {
 		Persona p = new Persona("Pablito");
 		
 		System.out.println("\nHola " + p.getNombre());
+		
+		
+		p.setApodo("Pata de Oso");
+		
+		System.out.println("\nAhhh y te dicen... " + p.getApodo());
 	}
 }
